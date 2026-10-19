@@ -1,0 +1,16 @@
+# Local-only files that should never be uploaded as deployment source.
+.git
+.vercel
+node_modules
+.next
+out
+.screenshots
+assets-arjun
+*.tsbuildinfo
+.DS_Store
+
+# Unused legacy media from the template (nothing references these).
+public/video
+public/images/blogs
+public/images/products
+public/images/me-old.png
